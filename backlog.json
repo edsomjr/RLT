@@ -1,0 +1,392 @@
+[
+	{
+		"max_pages": 50,
+		"synopsis": "",
+		"books":
+		[
+			{
+				"title": "The Bounded Linear Search",
+				"pages": 7,
+				"done": false
+			},
+			{
+				"title": "Exceptions in C with Longjump and Setjump",
+				"pages": 8,
+				"done": false
+			},
+			{
+				"title": "The Fundamental Theorem of Linear Algebra",
+				"pages": 9,
+				"done": false
+			},
+			{
+				"title": "Minutes in Less Than Hours",
+				"pages": 11,
+				"done": false
+			},
+			{
+				"title": "Go To Statement Considered Harmful (plus replies)",
+				"pages": 13,
+				"done": true
+			},
+			{
+				"title": "Theorems for Free!",
+				"pages": 13,
+				"done": false
+			},
+			{
+				"title": "The Development of the C Language",
+				"pages": 18,
+				"done": false
+			},
+			{
+				"title": "A Way to Practice Competitive Programming",
+				"pages": 19,
+				"done": false
+			},
+			{
+				"title": "The Concept of State in Discrete Dynamic Programming",
+				"pages": 35,
+				"done": false
+			}
+		]
+	},
+	{
+		"max_pages": 150,
+		"synopsis": "",
+		"books":
+		[
+			{
+				"title": "C++ Best Practices",
+				"pages": 46,
+				"done": false
+			},
+			{
+				"title": "Linux Shell Scripting Tutorial",
+				"pages": 46,
+				"done": false
+			},
+			{
+				"title": "C++ in Detail",
+				"pages": 53,
+				"done": false
+			},
+			{
+				"title": "C++ Lambda Story",
+				"pages": 55,
+				"done": false
+			},
+			{
+				"title": "What Every Programmer Should Know About Memory",
+				"pages": 114,
+				"done": false
+			},
+			{
+				"title": "The Principles of Object-Oriented Javascript",
+				"pages": 120,
+				"done": false
+			},
+			{
+				"title": "97 Things Every Programmer Should Know - Extended",
+				"pages": 143,
+				"done": false
+			},
+			{
+				"title": "Looking for a Challenge 2",
+				"pages": 142,
+				"done": false
+			},
+			{
+				"title": "Optimizing software in C++",
+				"pages": 167,
+				"done": false
+			},
+			{
+				"title": "Introduction to Functional Programming",
+				"pages": 168,
+				"done": false
+			}
+		]
+	},
+	{
+		"max_pages": 350,
+		"synopsis": "",
+		"books":
+		[
+			{
+				"title": "Think Like a Programmer",
+				"pages": 260,
+				"done": false
+			},
+			{
+				"title": "Competitive Programming 2",
+				"pages": 262,
+				"done": false
+			},
+			{
+				"title": "Problems on Algorithms",
+				"pages": 268,
+				"done": false
+			},
+			{
+				"title": "A Method of Programming",
+				"pages": 272,
+				"done": false
+			},
+			{
+				"title": "Compiler Design: Theory, Tools, and Examples",
+				"pages": 284,
+				"done": false
+			},
+			{
+				"title": "Guide to Competitive Programming",
+				"pages": 286,
+				"done": false
+			},
+			{
+				"title": "Guide to Scientific Computing in C++",
+				"pages": 293,
+				"done": false
+			},
+			{
+				"title": "Algorithmic Graph Theory and Sage",
+				"pages": 304,
+				"done": false
+			},
+			{
+				"title": "The Book of F#",
+				"pages": 314,
+				"done": false
+			},
+			{
+				"title": "Proofs from THE BOOK",
+				"pages": 314,
+				"done": false
+			},
+			{
+				"title": "Realm of Racket",
+				"pages": 318,
+				"done": false
+			},
+			{
+				"title": "Programming from the Ground Up",
+				"pages": 326,
+				"done": false
+			},
+			{
+				"title": "Clojure for the Brave and True",
+				"pages": 329,
+				"done": false
+			},
+			{
+				"title": "Algorithms",
+				"pages": 336,
+				"done": false
+			},
+			{
+				"title": "An Introduction to Machine Learning",
+				"pages": 348,
+				"done": false
+			}
+		]
+	},
+	{
+		"max_pages": 350,
+		"synopsis": "",
+		"books":
+		[
+			{
+				"title": "Reading, Writing, and Proving",
+				"pages": 376,
+				"done": false
+			},
+			{
+				"title": "Foundations of Programming Languages",
+				"pages": 382,
+				"done": false
+			},
+			{
+				"title": "Understanding Cryptography",
+				"pages": 382,
+				"done": false
+			},
+			{
+				"title": "Learn You a Haskell for Great Good!",
+				"pages": 404,
+				"done": false
+			},
+			{
+				"title": "How to Think Like a Computer Scientist: Learning with Python 3",
+				"pages": 421,
+				"done": false
+			},
+			{
+				"title": "Clever algorithms",
+				"pages": 438,
+				"done": false
+			},
+			{
+				"title": "Write Great Code",
+				"pages": 461,
+				"done": false
+			},
+			{
+				"title": "Game Theory",
+				"pages": 493,
+				"done": false
+			},
+			{
+				"title": "Category Theory for Programmers",
+				"pages": 498,
+				"done": false
+			},
+			{
+				"title": "Land of Lisp",
+				"pages": 508,
+				"done": false
+			},
+			{
+				"title": "Linear and Nonlinear Programming",
+				"pages": 547,
+				"done": false
+			},
+			{
+				"title": "Introduction to Computer Forensics",
+				"pages": 582,
+				"done": false
+			},
+			{
+				"title": "Learn You Some Erlang for Great Good!",
+				"pages": 628,
+				"done": false
+			},
+			{
+				"title": "Write Great Code - Volume 2",
+				"pages": 641,
+				"done": false
+			},
+			{
+				"title": "Mastering Dyalog APL",
+				"pages": 818,
+				"done": false
+			},
+			{
+				"title": "Structure and Interpretation of Computer Problems",
+				"pages": 883,
+				"done": false
+			},
+			{
+				"title": "Mathematics for Computer Science",
+				"pages": 995,
+				"done": false
+			}
+		]
+	},
+	{
+		"max_pages": -1,
+		"synopsis": "resolução de problemas de olimpíadas de matemática",
+		"books":
+		[
+			{
+				"title": "Problem Solving Strategies - Arthur Engel",
+				"pages": -1,
+				"done": false
+			}
+		]
+	},
+	{
+		"max_pages": -1,
+		"synopsis": "construção rigorosa basicamente do 0 de Análise Real, é uma experiência interessante e muito construtiva; vale muito a pena fazer, para saber construir as coisas bem, rigorosamente e do zero, ainda de quebra treinando demonstração",
+		"books":
+		[
+			{
+				"title": "Analysis I and II - Terence Tao",
+				"pages": -1,
+				"done": false
+			}
+		]
+	},
+	{
+		"max_pages": -1,
+		"synopsis": "também no sentido de problemas de olimpíada",
+		"books":
+		[
+			{
+				"title": "Série Tópicos de Matemática Elementar (todos os volumes) - SBM",
+				"pages": -1,
+				"done": false
+			}
+		]
+	},
+	{
+		"max_pages": -1,
+		"synopsis": "todos os de cima tocam forte em vários tópicos de computação com muito rigor mas enfatizando aspectos conceituais e filosóficos",
+		"books":
+		[
+			{
+				"title": "Philosophy of Computer Science - Stanford Encyclopedia of Philosophy",
+				"pages": -1,
+				"done": false
+			},
+			{
+				"title": "Computability and Complexity - Stanford Encyclopedia of Philosophy",
+				"pages": -1,
+				"done": false
+			},
+			{
+				"title": "Computational Complexity Theory - Stanford Encyclopedia of Philosophy",
+				"pages": -1,
+				"done": false
+			},
+			{
+				"title": "The Church-Turing Thesis - Stanford Encyclopedia of Philosophy",
+				"pages": -1,
+				"done": false
+			},
+			{
+				"title": "Turing Machines - Stanford Encyclopedia of Philosophy",
+				"pages": -1,
+				"done": false
+			},
+			{
+				"title": "Alan Turing - Stanford Encyclopedia of Philosophy",
+				"pages": -1,
+				"done": false
+			},
+			{
+				"title": "The Computational Theory of Mind - Stanford Encyclopedia of Philosophy",
+				"pages": -1,
+				"done": false
+			},
+			{
+				"title": "Classical Logic - Stanford Encyclopedia of Philosophy",
+				"pages": -1,
+				"done": false
+			}
+		]
+	},
+	{
+		"max_pages": -1,
+		"synopsis": "mesma ideia, mas sobre IA",
+		"books":
+		[
+			{
+				"title": "Making AI Intelligible - Oxford University Press",
+				"pages": -1,
+				"done": false
+			}
+		]
+	},
+	{
+		"max_pages": -1,
+		"synopsis": "",
+		"books":
+		[
+			{
+				"title": "Lógica Elementar - Desidério Murcho",
+				"pages": -1,
+				"done": false
+			}
+		]
+	}
+]
