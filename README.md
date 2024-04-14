@@ -8,4 +8,5 @@ Próxima obra: [The Fundamental Theorem of Linear Algebra, Gilbert Strang](matem
 
 ### Computação
 
-- [GOTO Statement Considered Harmful](computacao/goto_considered_harmful.md)
+- [GOTO Statement Considered Harmful, Dijkstra](computacao/goto_considered_harmful.md)
+
