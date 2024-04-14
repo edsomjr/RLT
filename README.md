@@ -10,5 +10,6 @@ STRANG, Gilbert. [The Fundamental Theorem of Linear Algebra](matematica/the_fund
 
 ### Computação
 
-- DIJKSTRA, Edsger W. [GOTO Statement Considered Harmful](computacao/goto_considered_harmful.md)
+- DIJKSTRA, Edsger W. [GOTO Statement Considered Harmful](computacao/goto_considered_harmful.md).
+- RUBIN, Frank. ["GOTO Statement Considered Harmful" Considered Harmful](computacao/goto_considered_harmful_2.md).
 
