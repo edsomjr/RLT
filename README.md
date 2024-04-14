@@ -2,11 +2,11 @@
 
 Roda de leitura técnica em Computação, Engenharia de Software e Matemática.
 
-Próxima obra: [The Fundamental Theorem of Linear Algebra, Gilbert Strang](matematica/the_fundamental_theorem_of_linear_algebra_strang.md)
+Próxima obra: STRANG, Gilbert. [The Fundamental Theorem of Linear Algebra](matematica/the_fundamental_theorem_of_linear_algebra_strang.md).
 
 ## Obras já discutidas
 
 ### Computação
 
-- [GOTO Statement Considered Harmful, Dijkstra](computacao/goto_considered_harmful.md)
+- DIJKSTRA, Edsger W. [GOTO Statement Considered Harmful](computacao/goto_considered_harmful.md)
 
