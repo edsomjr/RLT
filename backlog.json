@@ -25,6 +25,10 @@
 				"done": false
 			},
 			{
+				"title": "On building blocks of mathematical logic",
+				"pages": 10
+			},
+			{
 				"title": "Theorems for Free!",
 				"pages": 13,
 				"done": false
@@ -39,10 +43,6 @@
 				"pages": 19,
 				"done": false
 			},
-            {
-                "title": "On building blocks of mathematical logic",
-                "pages": 12
-            },
 			{
 				"title": "The Concept of State in Discrete Dynamic Programming",
 				"pages": 35,
