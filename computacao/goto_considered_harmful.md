@@ -10,3 +10,4 @@ Notas adicionais:
 - [Tirinha do xkcd sobre uso do `goto`](http://imgs.xkcd.com/comics/goto.png);
 - [Página do Wikipedia sobre títulos incluindo "Considered harmful"](https://pt.wikipedia.org/wiki/Considered_harmful);
 - [“Considered Harmful” Essays Considered Harmful](https://meyerweb.com/eric/comment/chech.html);
+- [The Bounded Linear Search por W. H. J. Feijen](http://www.mathmeth.com/wf/files/wf1xx/wf118.pdf).
