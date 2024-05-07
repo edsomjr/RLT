@@ -4,13 +4,14 @@ Roda de leitura técnica em Computação, Engenharia de Software e Matemática.
 
 ## Próxima leitura
 
-- SCHONFINKEL, Moses. [On the building block of mathematical logic](./matematica/on_the_building_block_of_mathematical_logic.md).
+1. HARRISON, John. [Introduction to Functional Programming](./computacao/introduction_to_functional_programming.md).
 
 ## Leituras finalizadas
 
 ### Matemática
 
 1. STRANG, Gilbert. [The Fundamental Theorem of Linear Algebra](matematica/the_fundamental_theorem_of_linear_algebra_strang.md).
+2. SCHONFINKEL, Moses. [On the building block of mathematical logic](./matematica/on_the_building_block_of_mathematical_logic.md).
 
 ### Computação
 
