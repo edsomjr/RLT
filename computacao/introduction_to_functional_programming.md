@@ -1,6 +1,6 @@
 ## Introduction to Functional Programming
 
-HARRISON, John. _Independently published_ pp 1-20 1997.
+HARRISON, John. _Independently published_ pp 1-26 1997.
 
 Usando ML (Meta Language; linguagem de programação funcional), Harrison introduz o paradigma de programação funcional.
 
