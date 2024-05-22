@@ -2,7 +2,7 @@
 
 SCHONFINKEL, Moses. _Gottingen Mathematical Society_ pp 356-366 1924.
 
-Schonfinkel tem como objetivo a redução do número de termos primitivas na lógica de primeira ordem.
+Schonfinkel tem como objetivo a redução do número de termos primitivos na lógica de primeira ordem.
 
 Disponível via acesso Wolfram na [Biblioteca Wolfram](https://content.wolfram.com/sites/43/2020/12/Schonfinkel-OnTheBuildingBlocksOfMathematicalLogic.pdf).
 
