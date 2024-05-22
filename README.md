@@ -5,6 +5,10 @@ Roda de leitura técnica em Computação, Engenharia de Software e Matemática.
 ## Próxima leitura
 
 1. HARRISON, John. [Introduction to Functional Programming](./computacao/introduction_to_functional_programming.md).
+    - [x] Cap. 1
+    - [x] Cap. 2
+    - [x] Cap. 3
+    - [ ] Cap. 4
 
 ## Leituras finalizadas
 
