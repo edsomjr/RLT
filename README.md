@@ -8,7 +8,12 @@ Roda de leitura técnica em Computação, Engenharia de Software e Matemática.
     - [x] Cap. 1
     - [x] Cap. 2
     - [x] Cap. 3
-    - [ ] Cap. 4
+    - [x] Cap. 4
+    - [x] Cap. 5
+    - [x] Cap. 6
+    - [x] Cap. 7
+    - [ ] Cap. 8
+    - [ ] Cap. 9
 
 ## Leituras finalizadas
 
