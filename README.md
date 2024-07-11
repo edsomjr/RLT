@@ -15,7 +15,7 @@ Roda de leitura técnica em Computação, Engenharia de Software e Matemática.
     - [x] Cap. 8
     - [ ] Cap. 9
 
-1. GITE, Vivek. [Linux Shell Scripting Tutorial v2.0](https://ftp.psu.ac.th/pub/howto/bash-howto/Linux_shell_scripting_v2.pdf)
+1. GITE, Vivek. [Linux Shell Scripting Tutorial v2.0](https://ftp.psu.ac.th/pub/howto/bash-howto/Linux_shell_scripting_v2.pdf).
     - [ ] Cap. 1
 
 ## Leituras finalizadas
