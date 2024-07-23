@@ -4,18 +4,7 @@ Roda de leitura técnica em Computação, Engenharia de Software e Matemática.
 
 ## Próxima leitura
 
-1. HARRISON, John. [Introduction to Functional Programming](./computacao/introduction_to_functional_programming.md).
-    - [x] Cap. 1
-    - [x] Cap. 2
-    - [x] Cap. 3
-    - [x] Cap. 4
-    - [x] Cap. 5
-    - [x] Cap. 6
-    - [x] Cap. 7
-    - [x] Cap. 8
-    - [ ] Cap. 9
-
-1. GITE, Vivek. [Linux Shell Scripting Tutorial v2.0](https://ftp.psu.ac.th/pub/howto/bash-howto/Linux_shell_scripting_v2.pdf).
+1. GITE, Vivek. [Linux Shell Scripting Tutorial](https://www.kau.edu.sa/files/830/files/60761_linux.pdf)
     - [ ] Cap. 1
 
 ## Leituras finalizadas
@@ -31,3 +20,4 @@ Roda de leitura técnica em Computação, Engenharia de Software e Matemática.
 2. RUBIN, Frank. ["GOTO Statement Considered Harmful" Considered Harmful](computacao/goto_considered_harmful_2.md).
 3. MOORE, Donald; MUSCIANO, Chuck; LIEBHABER, Michael J.; LOTT, Steven F.; STARR, Lee. ["'GOTO Statement Considered Harmful' Considered Harmful" Considered Harmful?](computacao/goto_considered_harmful_3.md).
 4. DIJKSTRA, Edsger W. [On a Somewhat Disappointing Correspondence](computacao/goto_considered_harmful_4.md).
+5. HARRISON, John. [Introduction to Functional Programming](./computacao/introduction_to_functional_programming.md).
