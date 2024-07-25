@@ -20,4 +20,5 @@ Roda de leitura técnica em Computação, Engenharia de Software e Matemática.
 2. RUBIN, Frank. ["GOTO Statement Considered Harmful" Considered Harmful](computacao/goto_considered_harmful_2.md).
 3. MOORE, Donald; MUSCIANO, Chuck; LIEBHABER, Michael J.; LOTT, Steven F.; STARR, Lee. ["'GOTO Statement Considered Harmful' Considered Harmful" Considered Harmful?](computacao/goto_considered_harmful_3.md).
 4. DIJKSTRA, Edsger W. [On a Somewhat Disappointing Correspondence](computacao/goto_considered_harmful_4.md).
-5. HARRISON, John. [Introduction to Functional Programming](./computacao/introduction_to_functional_programming.md).
+5. HARRISON, John. [Introduction to Functional Programming](./computacao/introduction_to_function_programming/README.md).
+    - [ ] Soluções dos exercícios.
