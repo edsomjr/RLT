@@ -5,7 +5,7 @@ Roda de leitura técnica em Computação, Engenharia de Software e Matemática.
 ## Próxima leitura
 
 1. GITE, Vivek. [Linux Shell Scripting Tutorial](https://www.kau.edu.sa/files/830/files/60761_linux.pdf)
-    - [ ] Cap. 1
+    - [ ] Todo.
 
 ## Leituras finalizadas
 
