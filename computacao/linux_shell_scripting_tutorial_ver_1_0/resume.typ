@@ -20,7 +20,7 @@ Os exercícios abaixo devem ser solucionados com línguagens Shell, como `bash`,
 
 Na décima página, um exercício é proposto -- _e erronamente solucionado_ -- com o intuito de entender melhor os filtros em Shell scripting:
 
-1. Suponha que exista um arquivo chamado `hotel.txt` com 100 linhas de dados. Imprima começando da linha 20 à linha 30 e armazene este resultado em um novo arquivo `hlist`.
+0. Suponha que exista um arquivo chamado `hotel.txt` com 100 linhas de dados. Imprima começando da linha 20 à linha 30 e armazene este resultado em um novo arquivo `hlist`.
 
 #solution[bash][
 ```bash
@@ -38,7 +38,7 @@ $ open hotel.txt | lines | skip 20 | first 10 | save hlist
 
 Os exercícios a seguir são da página 44 em diante, e devem ser feitos escrevendo um script shell.
 
-2. Adicione dois números, que são recebeidos pela linha de comando como argumentos, e se eses dois números não são dados, mostre um erro e seu uso correto:
+1. Adicione dois números, que são recebeidos pela linha de comando como argumentos, e se eses dois números não são dados, mostre um erro e seu uso correto:
 
 #solution[nushell][
 ```bash
@@ -54,7 +54,7 @@ def main [
 ```
 ]
 
-3. Retorne o maior número entre três argumentos dados pela linha de comando, e se três argumentos não forem dados, mostre um erro e seu uso correto.
+2. Retorne o maior número entre três argumentos dados pela linha de comando, e se três argumentos não forem dados, mostre um erro e seu uso correto.
 
 #solution[nushell][
 ```bash
@@ -71,7 +71,7 @@ def main [
 ```
 ]
 
-4. Imprima a sequência 5, 4, 3, 2, 1 utilizando a repetição _while_:
+3. Imprima a sequência 5, 4, 3, 2, 1 utilizando a repetição _while_:
 
 #solution[nushell][
 ```bash
@@ -92,7 +92,7 @@ def main []: nothing -> list<int> {
 ```
 ]
 
-5. Usando a palavra-chave `case` performe operações matemáticas básicas como adição (`+`), subtração (`-`), multiplicação (`x`), e divisão (`/`).
+4. Usando a palavra-chave `case` performe operações matemáticas básicas como adição (`+`), subtração (`-`), multiplicação (`x`), e divisão (`/`).
 
 #solution[nushell][
 ```bash
