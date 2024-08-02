@@ -70,3 +70,25 @@ def main [
 }
 ```
 ]
+
+4. Imprima a sequência 5, 4, 3, 2, 1 utilizando a repetição _while_:
+
+#solution[nushell][
+```bash
+#!/usr/bin/env nu
+
+# Create the sequence 5, 4, 3, 2, 1 using the while loop.
+def main []: nothing -> list<int> {
+	mut result = []
+
+	mut i = 5
+	while $i != 0 {
+		$result = $result ++ [ $i ]
+		$i = $i - 1
+	}
+
+	$result
+}
+```
+]
+
