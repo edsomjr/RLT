@@ -2,6 +2,10 @@
 
 Roda de leitura técnica em Computação, Engenharia de Software e Matemática.
 
+Horário de encontros:
+1. Alunos, membros e professor Edson: **Quintas às 15:00** na sala do Professor, UEC, Faculdade do Gama, DF.
+2. Apenas alunos e membros: **Sextas às 08:00** na sala Multiuso, UED, Faculdade do Gama, DF.
+
 ## Próxima leitura
 
 1. GITE, Vivek. [Linux Shell Scripting Tutorial](https://www.kau.edu.sa/files/830/files/60761_linux.pdf)
