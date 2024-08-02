@@ -38,7 +38,7 @@ $ open hotel.txt | lines | skip 20 | first 10 | save hlist
 
 Os exercícios a seguir são da página 44 em diante, e devem ser feitos escrevendo um script shell.
 
-1. Adicione dois números, que são recebeidos pela linha de comando como argumentos, e se eses dois números não são dados, mostre um erro e seu uso correto:
+1. Adicione dois números que são recebidos pela linha de comando como argumentos, e se esses dois números não são dados, mostre um erro e seu uso correto:
 
 #solution[nushell][
 ```bash
@@ -71,7 +71,7 @@ def main [
 ```
 ]
 
-3. Imprima a sequência 5, 4, 3, 2, 1 utilizando a repetição _while_:
+3. Imprima a sequência 5, 4, 3, 2, 1 utilizando a repetição `while`:
 
 #solution[nushell][
 ```bash
@@ -91,6 +91,36 @@ def main []: nothing -> list<int> {
 }
 ```
 ]
+
+3.1. Há outras formas de se resolver sem `while`, quais seriam?
+
+#solution[nushell][
+```bash
+#!/usr/bin/env nu
+
+# Create the sequence 5, 4, 3, 2, 1 using the command seq.
+def main []: nothing -> list<int> {
+	seq 5 -1 1
+}
+```
+]
+
+3.2. E para um máximo e mínimo qualquer dado pela linha de comando, como resolver?
+
+#solution[nushell][
+```bash
+#!/usr/bin/env nu
+
+# Create a decreasing sequence starting from `max` and ending in `min`.
+def main [
+	max: int # Start of the sequence.
+	min: int # End of the sequence.
+]: nothing -> list<int> {
+	seq $max -1 $min
+}
+```
+]
+
 
 4. Usando a palavra-chave `case` performe operações matemáticas básicas como adição (`+`), subtração (`-`), multiplicação (`x`), e divisão (`/`).
 
@@ -114,3 +144,5 @@ def main [
 }
 ```
 ]
+
+4.1. Ao invés de apenas três argumentos, resolva para um número ilimitado (podendo ser $1, 2, dots.c$).
