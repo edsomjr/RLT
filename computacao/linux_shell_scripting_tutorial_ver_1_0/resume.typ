@@ -7,7 +7,6 @@
 		[
 			#place(
 				top + right,
-				dy: -15%,
 				smallcaps(text(rgb(180, 183, 185))[#shell])
 			)
 			#content
