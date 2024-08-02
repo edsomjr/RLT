@@ -73,6 +73,19 @@ def main [
 
 3. Imprima a sequência 5, 4, 3, 2, 1 utilizando a repetição `while`:
 
+#solution[bash][
+```bash
+#!/usr/bin/env bash
+
+m=5;
+while [ $m -gt 0 ]
+do
+	echo "$m"
+	m=`expr $m - 1`
+done
+```
+]
+
 #solution[nushell][
 ```bash
 #!/usr/bin/env nu
@@ -94,6 +107,17 @@ def main []: nothing -> list<int> {
 
 3.1. Há outras formas de se resolver sem `while`, quais seriam?
 
+#solution[bash][
+```bash
+#!/usr/bin/env bash
+
+while ((m > 0)); do
+	echo "$m"
+	m=`expr $m - 1`
+done
+```
+]
+
 #solution[nushell][
 ```bash
 #!/usr/bin/env nu
@@ -106,6 +130,26 @@ def main []: nothing -> list<int> {
 ]
 
 3.2. E para um máximo e mínimo qualquer dado pela linha de comando, como resolver?
+
+#solution[bash][
+```bash
+#!/usr/bin/env bash
+
+if [ $# -lt 2 ]
+then
+	echo "MAX or MIN missing"
+	exit 1
+fi
+
+i=$1
+
+while [ $i -ge $2 ]
+do
+	echo "$i"
+	i=`expr $i - 1`
+done
+```
+]
 
 #solution[nushell][
 ```bash
@@ -121,6 +165,45 @@ def main [
 ```
 ]
 
+3.3. Imprimir a ordem crescente quando o primeiro argumento for menor que o segundo, senão imprimir a ordem decrescente.
+
+
+#solution[bash][
+```bash
+#!/usr/bin/env bash
+
+if [ $# -lt 2 ]
+then
+	echo "MAX or MIN missing"
+	exit 1
+fi
+
+if [ $2 -gt $1 ]
+then
+	i=$1
+	j=$2
+
+	while [ $i -le $j ]
+	do
+		echo "$i"
+		i=`expr $i + 1`
+	done
+
+elif [ $1 = $2 ]
+then
+	echo "$1"
+else
+	i=$1
+	j=$2
+
+	while [ $i -ge $j ]
+	do
+		echo "$i"
+		i=`expr $i - 1`
+	done
+fi
+```
+]
 
 4. Usando a palavra-chave `case` performe operações matemáticas básicas como adição (`+`), subtração (`-`), multiplicação (`x`), e divisão (`/`).
 
