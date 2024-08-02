@@ -8,7 +8,7 @@ Horário de encontros:
 
 ## Próxima leitura
 
-1. GITE, Vivek. [Linux Shell Scripting Tutorial](https://www.kau.edu.sa/files/830/files/60761_linux.pdf)
+1. GITE, Vivek. [Linux Shell Scripting Tutorial](./computacao/linux_shell_scripting_tutorial_ver_1_0/README.md):
     - [ ] Todo.
 
 ## Leituras finalizadas
