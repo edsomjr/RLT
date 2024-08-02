@@ -36,9 +36,9 @@ $ open hotel.txt | lines | skip 20 | first 10 | save hlist
 
 #line(length: 100%)
 
-Os exercícios a seguir são da página 44 em diante.
+Os exercícios a seguir são da página 44 em diante, e devem ser feitos escrevendo um script shell.
 
-2. Como escrever um shell script que adicione dois números, que são recebeidos pela linha de comando como argumentos, e se eses dois números não são dados, mostre um erro e seu uso correto:
+2. Adicione dois números, que são recebeidos pela linha de comando como argumentos, e se eses dois números não são dados, mostre um erro e seu uso correto:
 
 #solution[nushell][
 ```bash
