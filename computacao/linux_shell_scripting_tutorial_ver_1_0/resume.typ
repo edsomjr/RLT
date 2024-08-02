@@ -54,3 +54,19 @@ def main [
 ```
 ]
 
+3. Retorne o maior número entre três argumentos dados pela linha de comando, e se três argumentos não forem dados, mostre um erro e seu uso correto.
+
+#solution[nushell][
+```bash
+#!/usr/bin/env nu
+
+# Return the greastest number between the three given.
+def main [
+	a: int # First number to analyse.
+	b: int # Second number to analyse.
+	c: int # Third number to analyse.
+]: nothing -> int {
+	[ $a $b $c ] | sort | last
+}
+```
+]
