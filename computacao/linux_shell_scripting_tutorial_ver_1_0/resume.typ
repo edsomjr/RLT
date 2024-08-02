@@ -34,3 +34,23 @@ $ open hotel.txt | lines | skip 20 | first 10 | save hlist
 ```
 ]
 
+#line(length: 100%)
+
+Os exercícios a seguir são da página 44 em diante.
+
+2. Como escrever um shell script que adicione dois números, que são recebeidos pela linha de comando como argumentos, e se eses dois números não são dados, mostre um erro e seu uso correto:
+
+#solution[nushell][
+```bash
+#!/usr/bin/env nu
+
+# Add two numbers and return its sum.
+def main [
+	a: int # First number to add.
+	b: int # Second number to add.
+]: nothing -> int {
+	$a + $b
+}
+```
+]
+
