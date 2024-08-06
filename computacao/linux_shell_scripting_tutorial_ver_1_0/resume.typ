@@ -1,3 +1,14 @@
+#let to-string(content) = {
+  if content.has("text") {
+    content.text
+  } else if content.has("children") {
+    content.children.map(to-string).join("")
+  } else if content.has("body") {
+    to-string(content.body)
+  } else if content == [ ] {
+    " "
+  }
+}
 #let solution(shell, content) = [
 	#block(
 		stroke: (paint: rgb(200, 203, 205), thickness: 1pt, dash: "dashed"),
@@ -14,6 +25,18 @@
 	)
 ]
 
+#let nushell(content) = [
+	#solution[nushell][
+		#raw(to-string(content).replace(regex("^"), "#!/usr/bin/env nu\n\n"), lang: "bash")
+	]
+]
+
+#let bash(content) = [
+	#solution[nushell][
+		#raw(to-string(content).replace(regex("^"), "#!/usr/bin/env bash\n\n"), lang: "bash")
+	]
+]
+
 = Exercícios
 
 Os exercícios abaixo devem ser solucionados com línguagens Shell, como `bash`, `nushell`, `zsh`, `fish`, etc.
@@ -22,17 +45,13 @@ Na décima página, um exercício é proposto -- _e erronamente solucionado_ -- 
 
 0. Suponha que exista um arquivo chamado `hotel.txt` com 100 linhas de dados. Imprima começando da linha 20 à linha 30 e armazene este resultado em um novo arquivo `hlist`.
 
-#solution[bash][
-```bash
+#bash[```
 $ tail +20 < hotel.txt | head -10 > hlist
-```
-]
+```]
 
-#solution[nushell][
-```bash
+#nushell[```
 $ open hotel.txt | lines | skip 20 | first 10 | save hlist
-```
-]
+```]
 
 #line(length: 100%)
 
@@ -40,10 +59,7 @@ Os exercícios a seguir são da página 44 em diante, e devem ser feitos escreve
 
 1. Adicione dois números que são recebidos pela linha de comando como argumentos, e se esses dois números não são dados, mostre um erro e seu uso correto:
 
-#solution[nushell][
-```bash
-#!/usr/bin/env nu
-
+#nushell[```
 # Add two numbers and return its sum.
 def main [
 	a: int # First number to add.
@@ -51,15 +67,11 @@ def main [
 ]: nothing -> int {
 	$a + $b
 }
-```
-]
+```]
 
 2. Retorne o maior número entre três argumentos dados pela linha de comando, e se três argumentos não forem dados, mostre um erro e seu uso correto.
 
-#solution[nushell][
-```bash
-#!/usr/bin/env nu
-
+#nushell[```
 # Return the greastest number between the three given.
 def main [
 	a: int # First number to analyse.
@@ -68,28 +80,20 @@ def main [
 ]: nothing -> int {
 	[ $a $b $c ] | sort | last
 }
-```
-]
+```]
 
 3. Imprima a sequência 5, 4, 3, 2, 1 utilizando a repetição `while`:
 
-#solution[bash][
-```bash
-#!/usr/bin/env bash
-
+#bash[```
 m=5;
 while [ $m -gt 0 ]
 do
 	echo "$m"
 	m=`expr $m - 1`
 done
-```
-]
+```]
 
-#solution[nushell][
-```bash
-#!/usr/bin/env nu
-
+#nushell[```
 # Create the sequence 5, 4, 3, 2, 1 using the while loop.
 def main []: nothing -> list<int> {
 	mut result = []
@@ -102,39 +106,27 @@ def main []: nothing -> list<int> {
 
 	$result
 }
-```
-]
+```]
 
 3.1. Há outras formas de se resolver sem `while`, quais seriam?
 
-#solution[bash][
-```bash
-#!/usr/bin/env bash
-
+#bash[```
 while ((m > 0)); do
 	echo "$m"
 	m=`expr $m - 1`
 done
-```
-]
+```]
 
-#solution[nushell][
-```bash
-#!/usr/bin/env nu
-
+#nushell[```
 # Create the sequence 5, 4, 3, 2, 1 using the command seq.
 def main []: nothing -> list<int> {
 	seq 5 -1 1
 }
-```
-]
+```]
 
 3.2. E para um máximo e mínimo qualquer dado pela linha de comando, como resolver?
 
-#solution[bash][
-```bash
-#!/usr/bin/env bash
-
+#bash[```
 if [ $# -lt 2 ]
 then
 	echo "MAX or MIN missing"
@@ -148,13 +140,9 @@ do
 	echo "$i"
 	i=`expr $i - 1`
 done
-```
-]
+```]
 
-#solution[nushell][
-```bash
-#!/usr/bin/env nu
-
+#nushell[```
 # Create a decreasing sequence starting from `max` and ending in `min`.
 def main [
 	max: int # Start of the sequence.
@@ -162,16 +150,11 @@ def main [
 ]: nothing -> list<int> {
 	seq $max -1 $min
 }
-```
-]
+```]
 
 3.3. Imprimir a ordem crescente quando o primeiro argumento for menor que o segundo, senão imprimir a ordem decrescente.
 
-
-#solution[bash][
-```bash
-#!/usr/bin/env bash
-
+#bash[```
 if [ $# -lt 2 ]
 then
 	echo "MAX or MIN missing"
@@ -202,15 +185,11 @@ else
 		i=`expr $i - 1`
 	done
 fi
-```
-]
+```]
 
 4. Usando a palavra-chave `case` performe operações matemáticas básicas como adição (`+`), subtração (`-`), multiplicação (`x`), e divisão (`/`).
 
-#solution[nushell][
-```bash
-#!/usr/bin/env nu
-
+#nushell[```
 # Using case (match) keyword to perform basic math operations such as addition (+), subtraction (-), multiplication (x), and division (/).
 def main [
 	a: int # First operand.
@@ -225,11 +204,22 @@ def main [
 		_ => { NaN }
 	}
 }
-```
-]
+```]
 
 4.1. Ao invés de apenas três argumentos, resolva para um número ilimitado de argumentos (podendo ter $1, 2, dots.c$ argumentos).
 
 5. Mostre a data, tempo, usuário, e diretório atual.
 
+#nushell[```
+# Show the current date, time, username, and current directory.
+def main []: nothing -> any {
+	{
+		date: (date now | into string)
+		user: (whoami)
+		directory: $env.PWD
+	}
+}
+```]
+
+6. Faça o reverso do primeiro argumento dado.
 
