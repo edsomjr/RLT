@@ -229,3 +229,7 @@ def main [
 ]
 
 4.1. Ao invés de apenas três argumentos, resolva para um número ilimitado de argumentos (podendo ter $1, 2, dots.c$ argumentos).
+
+5. Mostre a data, tempo, usuário, e diretório atual.
+
+
