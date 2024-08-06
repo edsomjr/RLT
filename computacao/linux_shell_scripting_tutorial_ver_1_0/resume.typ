@@ -223,3 +223,11 @@ def main []: nothing -> any {
 
 6. Faça o reverso do primeiro argumento dado.
 
+#nushell[```
+# Reverse the given argument.
+export def main [
+	arg: string # String to be reversed.
+]: nothing -> any {
+	$arg | str reverse
+}
+```]
