@@ -1,7 +1,7 @@
 #!/usr/bin/env nu
 
 # Return the greastest number between the three given.
-def main [
+export def main [
 	a: int # First number to analyse.
 	b: int # Second number to analyse.
 	c: int # Third number to analyse.

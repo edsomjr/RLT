@@ -1,7 +1,7 @@
 #!/usr/bin/env nu
 
 # Create the sequence 5, 4, 3, 2, 1 using the while loop.
-def main []: nothing -> list<int> {
+export def main []: nothing -> list<int> {
 	mut result = []
 
 	mut i = 5
