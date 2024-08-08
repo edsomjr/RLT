@@ -1,3 +1,5 @@
+#import "../template.typ": *
+
 = Exercícios e soluções
 
 Todos foram escritos em OCaml por fácil acessso e alta similiaridade. OCaml faz parte da família de linguagens inspiradas em Meta Language.
