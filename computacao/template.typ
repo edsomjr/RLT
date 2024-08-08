@@ -25,15 +25,23 @@
 	)
 ]
 
-#let nushell(content) = [
-	#solution[nushell][
-		#raw(to-string(content).replace(regex("^"), "#!/usr/bin/env nu\n\n"), lang: "bash")
-	]
+#let nushell(content, shebang: true) = [
+	#solution("nushell", {
+		if shebang {
+			raw(to-string(content).replace(regex("^"), "#!/usr/bin/env nu\n\n"), lang: "bash")
+		} else {
+			raw(to-string(content), lang: "bash")
+		}
+	})
 ]
 
-#let bash(content) = [
-	#solution[nushell][
-		#raw(to-string(content).replace(regex("^"), "#!/usr/bin/env bash\n\n"), lang: "bash")
-	]
+#let bash(content, shebang: true) = [
+	#solution("bash", {
+		if shebang {
+			raw(to-string(content).replace(regex("^"), "#!/usr/bin/env bash\n\n"), lang: "bash")
+		} else {
+			raw(to-string(content), lang: "bash")
+		}
+	})
 ]
 

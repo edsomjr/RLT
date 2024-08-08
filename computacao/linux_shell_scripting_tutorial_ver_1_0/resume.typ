@@ -8,11 +8,11 @@ Na décima página, um exercício é proposto -- _e erronamente solucionado_ -- 
 
 0. Suponha que exista um arquivo chamado `hotel.txt` com 100 linhas de dados. Imprima começando da linha 20 à linha 30 e armazene este resultado em um novo arquivo `hlist`.
 
-#bash[```
+#bash(shebang: false)[```
 $ tail +20 < hotel.txt | head -10 > hlist
 ```]
 
-#nushell[```
+#nushell(shebang: false)[```
 $ open hotel.txt | lines | skip 20 | first 10 | save hlist
 ```]
 
@@ -209,4 +209,22 @@ export def main [
 8. Performe aritmética real (números com pontos decimais) dado os argumentos.
 
 #nushell[```
+```]
+
+9. Calcule a seguinte operação entre os dois números reais: $5.12 + 2.5$.
+
+#nushell(shebang: false)[```
+$ 5.12 + 2.5
+```]
+
+#bash(shebang: false)[```
+$ echo 5.12 + 2.5 | bc
+```]
+
+10. Como guardar o resultado de uma operação no conjunto dos números reais:
+
+#nushell(shebang: false)[```
+$ let a = 5.66
+$ let b = 8.67
+$ let c = $a + $b
 ```]
