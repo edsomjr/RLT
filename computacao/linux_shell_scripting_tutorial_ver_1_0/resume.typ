@@ -208,8 +208,7 @@ export def main [
 
 8. Performe aritmética real (números com pontos decimais) dado os argumentos.
 
-#nushell[```
-```]
+*Mesma solução da questão quatro para Nushell.*
 
 9. Calcule a seguinte operação entre os dois números reais: $5.12 + 2.5$.
 
@@ -230,6 +229,15 @@ $ let c = $a + $b
 ```]
 
 11. Determine se um arquivo existe dado seu caminho pela linha de comando. 
+
+#nushell[```
+# Given path of a possible file, verify if it exists.
+export def main [
+	path: string # Path to verify if file exists.
+]: nothing -> bool {
+	($path | path type) == "file"
+}
+```]
 
 12. Dado um argumento, verifique se ele contém o caractére asterisko (`*`), se não conter, adicione para o argumento e o imprima. Se conter, imprima: "Symbol is not required.".
 
