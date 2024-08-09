@@ -256,6 +256,27 @@ export def main [
 
 13. Dado o diretório de um arquivo como o primeiro argumento, imprima seu conteúdo a partir do segundo argumento (o ínicio), até o terceiro argumento, a quantidade de linhas seguintes.
 
+#nushell[```
+# Add an asterisk to the argument.
+export def main [
+	path: string # String to verify.
+	start: int # Start of the file.
+	end: int # End of the file.
+]: nothing -> string {
+	if ($path | path type) != "file" {
+		error make {
+			msg: $'Not a file.'
+			label: {
+				text: $'($path) is not a valid value.'
+				span: (metadata $path).span
+			}
+		}
+	}
+	
+	open $path | lines | skip $start | first $end
+}
+```]
+
 14. Implemente um programa que aceite as seguintes flags:
 - `-c` para limpar a tela (de _clear_);
 - `-d` mostrar a lista de arquivos no diretório atual;
