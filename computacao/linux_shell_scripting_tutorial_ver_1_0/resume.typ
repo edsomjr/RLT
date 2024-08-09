@@ -239,7 +239,20 @@ export def main [
 }
 ```]
 
-12. Dado um argumento, verifique se ele contém o caractére asterisko (`*`), se não conter, adicione para o argumento e o imprima. Se conter, imprima: "Symbol is not required.".
+12. Dado um argumento, verifique se ele contém o caractére asterisco (`*`), se não conter, adicione ao fim e o imprima. Se conter, imprima: "Symbol is not required.".
+
+#nushell[```
+# Add an asterisk to the argument.
+export def main [
+	arg: string # String to verify.
+]: nothing -> string {
+	if ($arg | str contains '*') {
+		"Symbol is not required."
+	} else {
+		$arg + '*'
+	}
+}
+```]
 
 13. Dado o diretório de um arquivo como o primeiro argumento, imprima seu conteúdo a partir do segundo argumento (o ínicio), até o terceiro argumento, a quantidade de linhas seguintes.
 
