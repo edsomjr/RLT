@@ -228,3 +228,63 @@ $ let a = 5.66
 $ let b = 8.67
 $ let c = $a + $b
 ```]
+
+11. Determine se um arquivo existe dado seu caminho pela linha de comando. 
+
+12. Dado um argumento, verifique se ele contém o caractére asterisko (`*`), se não conter, adicione para o argumento e o imprima. Se conter, imprima: "Symbol is not required.".
+
+13. Dado o diretório de um arquivo como o primeiro argumento, imprima seu conteúdo a partir do segundo argumento (o ínicio), até o terceiro argumento, a quantidade de linhas seguintes.
+
+14. Implemente um programa que aceite as seguintes flags:
+- `-c` para limpar a tela (de _clear_);
+- `-d` mostrar a lista de arquivos no diretório atual;
+- `-m` comecar o programa `mc` (Midnight Commander Shell) se estiver instalado;
+- `-e` comecar o editor padrão do sistema.
+
+15. Escreva um programa nomeado `sayHello`, e coloque-o para executar assim que o shell iniciar. Então imprima qualquer uma das seguintes mensagens no seu sistema (da forma que você quiser) de acordo com o horário:
+- "Bom dia!",
+- "Boa tarde!",
+- "Boa noite!".
+
+16. Imprima a mensagem "Bom Dia, Mundo!", em negrito e efeito piscante, com cores diferentes como vermelho, marron, etc, utilizando o comando `echo`.
+
+17. Implemente um programa que rode de fundo (como serviço) que imprimirá continuamente o tempo atual no lado direito acima da tela, enquanto o(a) usuário(a) pode usar normalmente o sistema.
+
+18. Escreva um programa que implemente utilitários de diálogo: items de menu e ações de acordo com o que foi selecionado como o seguinte:
+
+#table(
+	columns: (auto, auto, 1fr),
+	inset: 10pt,
+	align: horizon,
+	table.header(
+		[*Item Menu*], [*Propósito*], [*Ações para o Item Menu*],
+		),
+	"Data/tempo",
+	"Ver o tempo e data atual.",
+	"Data e tempo deve ser mostrado usando uma caixa de informação numa utilidade de diálogo.",
+	"Calendário",
+	"Ver o calendário atual",
+	"O calendário deve ser mostrado usando uma caixa de informação numa utilidade de diálogo.",
+	"Delete",
+	"Deletar o arquivo selecionado.",
+	"Primeiro peça ao usuário o nome do diretório onde todos os arquivos estão presentes, se não tiver nome, então assume-se o diretório atual. Então mostre todos osarquivos usando apenas aquele diretório, os arquivos devem ser selecionáveis. Após o usuário escolher um, confirme com o usuário e então se confiramdo, delete o arquivo, reporte erros se não conseguir.",
+	"Exit",
+	"Sair deste programa",
+	"Sair do programa atual (do script que estiver rodando)"
+)
+
+19. Escreva um programa que mostre as informações do sistema, como:
+- Usuário logado atual e seu nome no sistema;
+- Shell atual;
+- Diretório _home_;
+- Tipo do Sistema Operacional;
+- Configurações de caminho;
+- Diretório atual;
+- Número total de usuários de logados;
+- Informações do Linux, como versão, número de lançamento, etc;
+- Todos os _shells_ disponíveis.
+- Configurações do mouse;
+- Informações do processador como tipo, velocidade, etc;
+- Informações de memória;
+- Informações do dispositivo físico de armazenamento, tamanho total, memória cache, modelo, etc;
+- Sistema de arquivos montado.
