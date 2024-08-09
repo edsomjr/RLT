@@ -283,6 +283,26 @@ export def main [
 - `-m` comecar o programa `mc` (Midnight Commander Shell) se estiver instalado;
 - `-e` comecar o editor padrão do sistema.
 
+#nushell[```
+# Quick launcher of certain commands.
+export def main [
+	--clear (-c) # Clear the screen.
+	--list-directory (-d) # List the files of the current directory.
+	--midnight-commander (-m) # Execute the Midnight Commander Shell.
+	--editor (-e) # Execute the default editor of the system.
+]: nothing -> any {
+	if $clear {
+		clear
+	} else if $list_directory {
+		ls ./
+	} else if $midnight_commander {
+		exec mc
+	} else if $editor {
+		exec $env.EDITOR
+	}
+}
+```]
+
 15. Escreva um programa nomeado `sayHello`, e coloque-o para executar assim que o shell iniciar. Então imprima qualquer uma das seguintes mensagens no seu sistema (da forma que você quiser) de acordo com o horário:
 - "Bom dia!",
 - "Boa tarde!",
