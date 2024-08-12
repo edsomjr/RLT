@@ -1,4 +1,4 @@
-## Linux Shell Scripting Tutorial (LSST) v1.0 - v1.05r3
+## Problem on Algorithms 
 
 Ian Parberry & William Gasarch
 
