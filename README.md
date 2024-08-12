@@ -6,10 +6,11 @@ Horário de encontros:
 1. Alunos, membros e professor Edson: **Quintas às 15:00** na sala do Professor, UEC, Faculdade do Gama, DF.
 2. Apenas alunos e membros: **Sextas às 08:00** na sala Multiuso, UED, Faculdade do Gama, DF.
 
-## Próxima leitura
+## Próxima leitura (15/08)
 
-1. GITE, Vivek. [Linux Shell Scripting Tutorial](./computacao/linux_shell_scripting_tutorial_ver_1_0/README.md):
-    - [ ] Todo.
+1. PARBERRY, Ian; GASARCH, William; [Problem on Algorithms](./computacao/problems_on_algorithms/README.md).
+    - [ ] 1º capítulo;
+    - [ ] 2º capítulo.
 
 ## Leituras finalizadas
 
@@ -20,9 +21,10 @@ Horário de encontros:
 
 ### Computação
 
-1. DIJKSTRA, Edsger W. [GOTO Statement Considered Harmful](computacao/goto_considered_harmful.md).
-2. RUBIN, Frank. ["GOTO Statement Considered Harmful" Considered Harmful](computacao/goto_considered_harmful_2.md).
-3. MOORE, Donald; MUSCIANO, Chuck; LIEBHABER, Michael J.; LOTT, Steven F.; STARR, Lee. ["'GOTO Statement Considered Harmful' Considered Harmful" Considered Harmful?](computacao/goto_considered_harmful_3.md).
-4. DIJKSTRA, Edsger W. [On a Somewhat Disappointing Correspondence](computacao/goto_considered_harmful_4.md).
-5. HARRISON, John. [Introduction to Functional Programming](./computacao/introduction_to_function_programming/README.md).
+1. DIJKSTRA, Edsger W. [GOTO Statement Considered Harmful](computacao/goto_considered_harmful.md);
+2. RUBIN, Frank. ["GOTO Statement Considered Harmful" Considered Harmful](computacao/goto_considered_harmful_2.md);
+3. MOORE, Donald; MUSCIANO, Chuck; LIEBHABER, Michael J.; LOTT, Steven F.; STARR, Lee. ["'GOTO Statement Considered Harmful' Considered Harmful" Considered Harmful?](computacao/goto_considered_harmful_3.md);
+4. DIJKSTRA, Edsger W. [On a Somewhat Disappointing Correspondence](computacao/goto_considered_harmful_4.md);
+5. HARRISON, John. [Introduction to Functional Programming](./computacao/introduction_to_function_programming/README.md);
     - [ ] Soluções dos exercícios.
+6. GITE, Vivek. [Linux Shell Scripting Tutorial](./computacao/linux_shell_scripting_tutorial_ver_1_0/README.md).
