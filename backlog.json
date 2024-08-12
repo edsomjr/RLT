@@ -17,7 +17,7 @@
 			{
 				"title": "The Fundamental Theorem of Linear Algebra",
 				"pages": 9,
-				"done": false
+				"done": true
 			},
 			{
 				"title": "Minutes in Less Than Hours",
@@ -26,7 +26,8 @@
 			},
 			{
 				"title": "On building blocks of mathematical logic",
-				"pages": 10
+				"pages": 10,
+				"done": true
 			},
 			{
 				"title": "Theorems for Free!",
@@ -103,7 +104,7 @@
 			{
 				"title": "Introduction to Functional Programming",
 				"pages": 168,
-				"done": false
+				"done": true
 			}
 		]
 	},
