@@ -61,9 +61,9 @@
 				"done": false
 			},
 			{
-				"title": "Linux Shell Scripting Tutorial",
+				"title": "Linux Shell Scripting Tutorial v1.0",
 				"pages": 46,
-				"done": false
+				"done": true
 			},
 			{
 				"title": "C++ in Detail",
