@@ -12,29 +12,4 @@ Com 668 problemas e 35 exemplos trabalhados, o livro serve como suplmento ao pro
 
 ### 2.1 Somatórios
 
-7. Para $n = 1$ temos que
-
-$$
-\sum_{i = 1}^1 \frac{1}{2^i} = \frac{1}{2} = 1 - \frac{1}{2^1},
-$$
-
-de modo que a afirmativa é verdadeira neste caso. Suponha que a afirmativa é verdadeira para um inteiro positivo $m$. Para $m + 1$ temos que
-
-$$
-\begin{align}
-	\sum_{i = 1}^{m + 1} \frac{1}{2^i} &= \left( \sum_{i = 1}^{m} \frac{1}{2^i} \right) + \frac{1}{2^{m + 1}} \\
-	&= \left( 1 - \frac{1}{2^m}\right) + \frac{1}{2^{m + 1}} \\
-	&= 1 + \left( \frac{1}{2^{m + 1}} - \frac{1}{2^m}\right)  \\
-	&= 1 + \left( \frac{1}{2^{m + 1}} - \frac{1}{2^m}\right)  \\
-	&= 1 - \frac{1}{2^{m + 1}} \\
-\end{align}
-$$
-
-Portanto, a afirmativa é verdadeira para todo inteiro $n\geq 1$.
-
-$$
-\begin{flalign}
-&&\square
-\end{flalign}
-$$
-
+[x] [7](solutions/2_1_07.md) 
