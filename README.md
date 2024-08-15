@@ -9,8 +9,8 @@ Horário de encontros:
 ## Próxima leitura (15/08)
 
 1. PARBERRY, Ian; GASARCH, William; [Problem on Algorithms](./computacao/problems_on_algorithms/README.md).
-    - [ ] 1º capítulo;
-    - [ ] 2º capítulo.
+    - [x] Capítulo 01
+    - [ ] Capítulo 02
 
 ## Leituras finalizadas
 
