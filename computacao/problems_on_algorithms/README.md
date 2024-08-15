@@ -6,11 +6,11 @@ Visto a [licença de direitos autorais](http://hercule.csci.unt.edu/ian/books/fr
 
 Com 668 problemas e 35 exemplos trabalhados, o livro serve como suplmento ao providenciar uma coleção de problemas práticos de construção, análise e verificação de algoritimos. O livro foca nas áreas importantes de construção de algoritimos e materiais fundamentais: técnicas de algoritimos; estruturas de dados avançadas e NP-completo; e problemas miscelâneos. Algoritimos são expressados em pseudo-código parecido com Pascal com figuras, diagramas, dicas, soluções, e comentários.
 
-### Soluções para os exercícios
+## Soluções para os exercícios
 
-## Capítulo 2: Indução Matemática
+### Capítulo 2: Indução Matemática
 
-### 2.1 Somatórios
+#### 2.1 Somatórios
 
 - [ ] Exercício #01
 - [ ] Exercício #02
@@ -21,6 +21,6 @@ Com 668 problemas e 35 exemplos trabalhados, o livro serve como suplmento ao pro
 - [x] [Exercício #07](solutions/2_1_07.md) 
 
 
-### 2.2 Desigualdades
+#### 2.2 Desigualdades
 
 - [x] [Exercício #20](solutions/2_2_20.md)
