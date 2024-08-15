@@ -21,6 +21,6 @@ Com 668 problemas e 35 exemplos trabalhados, o livro serve como suplmento ao pro
 - [x] [Exercício #07](solutions/2_1_07.md) 
 
 
-### 2.1 Somatórios
+### 2.2 Desigualdades
 
 - [x] [Exercício #20](solutions/2_2_20.md)
