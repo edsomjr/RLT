@@ -10,7 +10,7 @@ Disponível via acesso Universidade de Cambridge na [Biblioteca Virtual de Cambr
 
 ### Capítulo 2: Cálculo Lambda
 
-- [ ] Exercício #1
+- [x] [Exercício #1](solutions/2_1.md)
 - [ ] Exercício #2
 - [ ] Exercício #3
 - [ ] Exercício #4
