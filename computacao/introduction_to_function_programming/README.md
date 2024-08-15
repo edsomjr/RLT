@@ -8,7 +8,7 @@ Disponível via acesso Universidade de Cambridge na [Biblioteca Virtual de Cambr
 
 ## Soluções para os exercícios
 
-### Capítulo 2: Indução Matemática
+### Capítulo 2: Cálculo Lambda
 
 - [ ] Exercício #1
 - [ ] Exercício #2
