@@ -12,15 +12,15 @@ Com 668 problemas e 35 exemplos trabalhados, o livro serve como suplmento ao pro
 
 ### 2.1 Somatórios
 
-[ ] 1
-[ ] 2
-[ ] 3
-[ ] 4
-[ ] 5
-[ ] 6
-[x] [Exercício #07](solutions/2_1_07.md) 
+- [ ] Exercício #01
+- [ ] Exercício #02
+- [ ] Exercício #03
+- [ ] Exercício #04
+- [ ] Exercício #05
+- [ ] Exercício #06
+- [x] [Exercício #07](solutions/2_1_07.md) 
 
 
 ### 2.1 Somatórios
 
-[ ] [Exercício #20](solutions/2_2_20.md)
+- [x] [Exercício #20](solutions/2_2_20.md)
