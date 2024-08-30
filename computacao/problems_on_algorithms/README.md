@@ -15,7 +15,7 @@ Com 668 problemas e 35 exemplos trabalhados, o livro serve como suplemento ao pr
 - [ ] Exercício #01
 - [ ] Exercício #02
 - [ ] Exercício #03
-- [ ] Exercício #04
+- [x] Exercício #04
 - [ ] Exercício #05
 - [ ] Exercício #06
 - [x] [Exercício #07](solutions/2_1_07.md) 
